@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   http: ^1.4.0
   modal_progress_hud_nsn: ^0.5.1
+  image_picker: ^1.1.2
 
 dev_dependencies:
   flutter_test:

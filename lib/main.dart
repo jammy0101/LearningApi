@@ -1,3 +1,4 @@
+import 'package:api/UploadImageScreen.dart';
 import 'package:api/example_five.dart';
 import 'package:api/example_four.dart';
 import 'package:api/example_three.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Signup(),
+      home:UploadImageScreen(),
     );
   }
 }

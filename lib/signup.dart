@@ -13,25 +13,7 @@ class Signup extends StatefulWidget {
 TextEditingController emailController = TextEditingController();
 TextEditingController passwordController = TextEditingController();
 
-//
-// void login(String email,password)async{
-//   try{
-//   http.Response response =await http.post(
-//       Uri.parse('https://reqres.in/api/register'),
-//       body : {
-//         'email' : email,
-//         'password' : password,
-//       }
-//     );
-//   if(response.statusCode == 200){
-//     print('Account created Successfully');
-//   }else{
-//     print('Failed');
-//   }
-//   }catch(e){
-//     print(e.toString);
-//   }
-// }
+
 void login(String email, String password) async {
   try {
     final response = await http.post(
@@ -52,6 +34,8 @@ void login(String email, String password) async {
     print('Error: ${e.toString()}'); // Fixed toString() call
   }
 }
+
+
 
 class _SignupState extends State<Signup> {
   @override
