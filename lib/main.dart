@@ -1,9 +1,12 @@
 import 'package:api/UploadImageScreen.dart';
+import 'package:api/drop_down_api.dart';
 import 'package:api/example_five.dart';
 import 'package:api/example_four.dart';
 import 'package:api/example_three.dart';
 import 'package:api/example_two.dart';
 import 'package:api/homeScreen.dart';
+import 'package:api/practice.dart';
+import 'package:api/practice2.dart';
 import 'package:api/signup.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:UploadImageScreen(),
+      home: DropDownApi(),
     );
   }
 }

@@ -32,6 +32,7 @@ class _ExampleTwoState extends State<ExampleTwo> {
       return photosList;
     }
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -57,12 +58,12 @@ class _ExampleTwoState extends State<ExampleTwo> {
                           subtitle: Text(snapshot.data![index].title.toString()),
                           title: Text('Note Id :' + snapshot.data![index].id.toString()),
                         );
-                      }
+                       }
                       );
-                }
-            ),
-          ),
-        ],
+                    }
+                  ),
+                ),
+               ],
       ),
     );
   }
@@ -77,4 +78,3 @@ class Photos {
   Photos({required this.title , required this.url,required this.id});
 
 }
-

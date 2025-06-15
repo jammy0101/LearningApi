@@ -8,7 +8,6 @@ plugins {
 android {
     namespace = "com.example.api"
     compileSdk = flutter.compileSdkVersion
-
     ndkVersion = "27.0.12077973"
 
     compileOptions {
